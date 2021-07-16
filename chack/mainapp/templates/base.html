@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make an appointment</title>
+
+
+    {% if form %}
+    {{ form.media }}
+    {% endif %}
+</head>
+<body>
+    {% block appointment_form %}
+    {% endblock %}
+</body>
+</html>

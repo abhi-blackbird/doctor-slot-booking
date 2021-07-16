@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <title>from</title>
+  <head>
+  </head>
+  <body>
+    <form action="../index/" method="post">
+
+      {% csrf_token %}
+      
+      <div class="formcontainer">
+      <div class="container">
+        <label for="name"><strong>name</strong></label>
+        <input type="text" placeholder="Enter Username" name="username">
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="text" placeholder="Enter E-mail" name="email">
+        <label for="phone_no"><strong>phoneno</strong></label>
+        <input type="text" placeholder="Enter phone_no" name="phone_no">        
+      </div>
+      <button type="submit"><strong>submit</strong></button>
+        </label>
+       
+      </div>
+    </form>
+  </body>
+</html>
